@@ -1,8 +1,8 @@
-import Register from "./components/register/Register";
+import Register from "./components/login/Login";
 function App(){
   return(
        <div>
-       <Register />
+       <Login />
        
        
        </div>
