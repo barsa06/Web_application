@@ -17,9 +17,14 @@ function Login(){
                 <Input labelName="Password:" type="pwd" placeholder="Enter password"/>
                </div>
 
-               <input type="Submit" value="Submit " id="Login" className="mt-3 block text-sm font-medium text-gray-700
-                border-1 border-black border-2 rounded-lg p-2 bg-green-500"/>
+              <p className="text-center text-sm mt-3">
+                 <a href="#" className="mt-3 block text-sm font-medium text-gray-700
+           border-1 border-black rounded-lg p-2 bg-green-500 hover:underline">Log in</a>
+              </p>
             </form>
+            <p className="text-center text-sm mt-3">
+                 <a href="#" className="text-blue-500 hover:underline">Forgot password?</a>
+            </p>
         </div>
         </div>
         
